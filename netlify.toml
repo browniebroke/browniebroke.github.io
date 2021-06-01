@@ -2,7 +2,7 @@
   base    = ""
   publish = "public"
   command = "yarn build"
-  environment = { GATSBY_CPU_COUNT = "1" }
+  environment = { GATSBY_CPU_COUNT = "1", YARN_VERSION = "3.0.0" }
 
 [context.production]
   environment = { GA_TRACKING_ID = "G-DLGHEH0LX2" }
